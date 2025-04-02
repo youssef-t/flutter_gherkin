@@ -165,9 +165,11 @@ packages:
   gherkin:
     dependency: "direct main"
     description:
-      path: "../dart_gherkin"
-      relative: true
-    source: path
+      path: "."
+      ref: c335169f04e3d14c1f104a65a47ce0f3b02a911d
+      resolved-ref: c335169f04e3d14c1f104a65a47ce0f3b02a911d
+      url: "https://github.com/youssef-t/dart_gherkin.git"
+    source: git
     version: "3.1.0"
   glob:
     dependency: "direct main"

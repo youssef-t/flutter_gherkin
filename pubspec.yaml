@@ -19,8 +19,9 @@ dependencies:
   analyzer: ^6.11.0
   collection: ^1.15.0
   gherkin:
-    # FIXME This dependency must be removed after the merge of this PR: https://github.com/jonsamwell/dart_gherkin/pull/71
-    path: ../dart_gherkin
+    git:
+      url: https://github.com/youssef-t/dart_gherkin.git
+      ref: c335169f04e3d14c1f104a65a47ce0f3b02a911d
   source_gen: ^2.0.0
   build: ^2.1.1
   glob: ^2.0.2
